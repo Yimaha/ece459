@@ -1,0 +1,80 @@
+#V2
+load-default
+load-defaults
+lp
+q
+quit
+ld
+li
+ld
+info libc6
+info libdbi1
+deps-available 4g8
+ld
+info 4g8
+deps-available 4g8
+info libzydis-dev
+ld
+transitive-dep-solution libzydis-dev
+ld
+transitive-dep-solution libzydis-dev
+ld
+transitive-dep-solution libzydis-dev
+ld
+transitive-dep-solution libzydis-dev
+info libzydis-dev
+ld
+transitive-dep-solution libzydis-dev
+transitive-dep-solution 3depict
+ld
+how-to-install 3depict
+info 3depict
+ld
+how-to-install 3depict
+ld
+how-to-install 3depict
+ld
+how-to-install 3depict
+ls
+ld
+how-to-install 3depict
+ld
+enq-verify bash
+ld
+enq-verify bash
+perform
+execute
+enq-verify bash
+execute
+quit
+ld
+enq-verify bash
+ld
+enq-verify bash
+execute
+info bash
+execute
+quit
+ld
+enq-verify bash
+enq-verify 0ad
+quit
+enq-verify libc6 28
+ld
+execute
+ld
+enq-verify bash
+enq-verify 0ad
+enq-verify libc6 28
+execute
+quit
+ld 
+info bash
+ deps apt
+deps apt
+deps-available 3depict
+transitive-dep-solution 0ad
+how-to-install 3depict
+enq-verify bash
+enq-verify libc6 28
+quit

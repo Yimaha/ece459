@@ -1,0 +1,15 @@
+ecetesla2:~/ECE459/ece459-1231-a4-t28cai> hyperfine -i "target/release/lab4"
+Benchmark #1: target/release/lab4
+  Time (mean ± σ):     818.7 ms ± 321.5 ms    [User: 1.863 s, System: 0.101 s]
+  Range (min … max):   255.2 ms … 1345.9 ms    10 runs
+ 
+ecetesla2:~/ECE459/ece459-1231-a4-t28cai> hyperfine -i "target/release/lab4"
+Benchmark #1: target/release/lab4
+  Time (mean ± σ):     883.0 ms ± 556.9 ms    [User: 2.519 s, System: 0.084 s]
+  Range (min … max):   231.4 ms … 1726.4 ms    10 runs
+ 
+ecetesla2:~/ECE459/ece459-1231-a4-t28cai> hyperfine -i "target/release/lab4"
+Benchmark #1: target/release/lab4
+  Time (mean ± σ):     778.5 ms ± 334.8 ms    [User: 1.921 s, System: 0.093 s]
+  Range (min … max):   288.8 ms … 1330.1 ms    10 runs
+ 

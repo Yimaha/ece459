@@ -1,0 +1,37 @@
+Package: 0ad
+Version: 0.0.25b-1.1
+Installed-Size: 26238
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: amd64
+Depends: 0ad-data (>= 0.0.25b), 0ad-data (<= 0.0.25b-1.1), 0ad-data-common (>= 0.0.25b), 0ad-data-common (<= 0.0.25b-1.1), libboost-filesystem1.74.0 (>= 1.74.0), libc6 (>= 2.33), libcurl3-gnutls (>= 7.32.0), libenet7, libfmt8 (>= 8.0.1+ds1), libgcc-s1 (>= 3.4), libgl1, libgloox18 (>= 1.0.24), libicu67 (>= 67.1-1~), libminiupnpc17 (>= 1.9.20140610), libopenal1 (>= 1.14), libpng16-16 (>= 1.6.2-1), libsdl2-2.0-0 (>= 2.0.12), libsodium23 (>= 1.0.14), libstdc++6 (>= 11), libvorbisfile3 (>= 1.1.2), libwxbase3.0-0v5 (>= 3.0.5.1+dfsg), libwxgtk3.0-gtk3-0v5 (>= 3.0.5.1+dfsg), libx11-6, libxml2 (>= 2.9.0), zlib1g (>= 1:1.2.0)
+Pre-Depends: dpkg (>= 1.15.6~)
+Description: Real-time strategy game of ancient warfare
+Homepage: https://play0ad.com/
+Description-md5: d943033bedada21853d2ae54a2578a7b
+Tag: game::strategy, interface::graphical, interface::x11, role::program,
+ uitoolkit::sdl, uitoolkit::wxwidgets, use::gameplaying,
+ x11::application
+Section: games
+Priority: optional
+Filename: pool/main/0/0ad/0ad_0.0.25b-1.1_amd64.deb
+Size: 7659616
+MD5sum: a69a83b841892af27ea296387037ffd8
+SHA256: 4e2ac5e9e4aaf5496366956fa0413c090f1a62b649f5d1ad42c081c5e57d2354
+
+Package: 0ad-data
+Version: 0.0.25b-1
+Installed-Size: 3210038
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: all
+Pre-Depends: dpkg (>= 1.15.6~)
+Suggests: 0ad
+Description: Real-time strategy game of ancient warfare (data files)
+Homepage: https://play0ad.com/
+Description-md5: 26581e685027d5ae84824362a4ba59ee
+Tag: role::app-data
+Section: games
+Priority: optional
+Filename: pool/main/0/0ad-data/0ad-data_0.0.25b-1_all.deb
+Size: 1274155388
+MD5sum: 1edb6cc661f249309c94c9aa0f9339a1
+SHA256: f84f1a86cd5445255d091d7ee10364b89463fdd36eb96c0c0d27c407f02c29b2
